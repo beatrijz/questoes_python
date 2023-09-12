@@ -1,3 +1,6 @@
+"""O IMC (índice de massa corpórea) indica o grau de obesidade de uma pessoa. Este
+índice é obtido pelo peso (em kg) dividido pelo quadrado da altura (em metros). A
+tabela a seguir apresenta as faixas deste índice:"""
 peso = int (input ('Digite o seu em peso kg: '))
 altura = input ('Digite a sua altura em metros: ').replace (',', '.')
 altura_formatada = float (altura)
